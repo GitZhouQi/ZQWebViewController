@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         let button = UIButton(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
         button.addTarget(self, action: #selector(openWebView), for: .touchUpInside)
         button.setTitle("跳转网页", for: .normal)
+        button.backgroundColor = UIColor.green
         view.addSubview(button)
     }
     
